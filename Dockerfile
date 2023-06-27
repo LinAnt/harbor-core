@@ -1,4 +1,7 @@
-FROM goharbor/harbor-core:v2.8.1
+
+ARG VERSION=latest
+
+FROM goharbor/harbor-core:$VERSION
 
 USER root
 COPY patched-entrypoint.sh	/harbor/patched-entrypoint.sh
