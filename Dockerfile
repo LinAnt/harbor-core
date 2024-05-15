@@ -1,5 +1,5 @@
 
-ARG VERSION=v2.9.1
+ARG VERSION=v2.10.2
 
 FROM goharbor/harbor-core:$VERSION
 
